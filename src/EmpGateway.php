@@ -11,7 +11,8 @@ class EmpGateway
     public function getAll(): array
     {
         $sql = "SELECT *
-                FROM employees";
+                FROM employees e, hr h
+                WHERE e.id=h.id";
                 
         $stmt = $this->conn->query($sql);
         
