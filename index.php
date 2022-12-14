@@ -25,9 +25,9 @@ $database = new Database("localhost", "dbeeta", "root", "");
 
 $database -> getConnection();
 
-$gateway = new ProductGateway($database);
+$gateway = new EmpGateway($database);
 
-$controller = new ProductController($gateway);
+$controller = new EmpController($gateway);
 
 $controller->processRequest($_SERVER["REQUEST_METHOD"], $id);
 
