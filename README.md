@@ -49,7 +49,7 @@ This contains API for getting data from MySQL Database With PHP and calling this
     * start server and test API using Postman
    (Use GET Method :  http://localhost/dbeeta_PHP_MySQL_Android/)
     
- ### 5. After Test API
+ ### 6. After Test API
  
     * Extract dbeetaPHPMySQLAndroid.zip and open this project via Android Studio
     * Run the project and say wow!
